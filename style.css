@@ -1,4 +1,107 @@
-{
-    padding: 10px
-    margin:0;
+* {
+    margin: 0;
+    padding: 0%;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #003580;
+}
+
+#header-content {
+    padding: 20px 0;
+}
+
+.Logo {
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.row-center {
+    display: flex;
+    align-items: center;
+}
+
+.Logo p {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#button-language {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+#button-language img {
+    width: 25px;
+    border-radius: 50px;
+
+}
+
+#brl-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#info-button {
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+#actions  button {
+    padding: 10px 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+}
+
+#actions button > a {
+    color: #0071c2;
+    text-decoration:none;
+}
+
+#actions button:nth-child(1){
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#actions button:nth-child(1) > A {
+    color: white;
+}
+
+#menu-options ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#menu-options ul li a img {
+    margin-right: 8px;
+}
+
+#menu-options ul li:nth-child(1) a {
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: hsla(0, 0%, 100%, .1);
 }
