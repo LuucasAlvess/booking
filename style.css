@@ -235,7 +235,7 @@ header {
 }
 
 .offers-banner h4, p {
-    width: 70%;
+    width: 60%;
     margin-bottom: 10px;
 }
 
@@ -259,7 +259,29 @@ header {
 }
 
 .app-banner {
-    border: 1px solid #ccc;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
     border-radius: 10px;
     display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 50%;
+}
+
+. .app-banner p {
+    margin: .5rem 0;           /* .5 é igual a 0.5 */
+    width: 70%;
+}
+
+.destinations {
+    margin-top: 2rem;   
+}
+
+.list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.list img {
+    width: 200px;
 }
