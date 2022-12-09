@@ -267,7 +267,7 @@ header {
     width: 50%;
 }
 
-. .app-banner p {
+.app-banner p {
     margin: .5rem 0;           /* .5 é igual a 0.5 */
     width: 70%;
 }
