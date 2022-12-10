@@ -276,12 +276,155 @@ header {
     margin-top: 2rem;   
 }
 
+.destinations p {
+    margin-bottom: 1rem;
+}
+
 .list {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .list img {
     width: 200px;
+    height: 150px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.list h5 {
+    color: #000;
+    font-size: 1rem;
+}
+
+.list p, .list span{
+    color: #6b6b6b;
+    font-size: 13px;
+    width: 100%;
+}
+
+.plan {
+    margin-top: 2rem;
+}
+
+.menu-filter {
+    display: flex;
+    width: 100%;
+}
+
+.menu-filter li {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.menu-filter li:nth-child(1) {
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 113, 194, 0.06);
+}
+
+.menu-filter img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.residences > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.residences > div:nth-child(1) button {
+    background-color: rgba(0, 113, 194, 0.06);
+    border: 1px solid #0071c2;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.residence > div:nth-child(1) > button > a {
+    text-decoration: none;
+    color: #0071c2;
+}
+
+.list-residences h5, p {
+    font-size: 14px;
+    width: 80%;
+    
+}
+
+.list-residences p {
+}
+
+.list-residences {
+    justify-content: flex-start;
+}
+
+.list-residences li {
+    margin-right: 2rem;
+}
+
+.list-residences span:nth-child(1) {
+    background-color: #003580;
+    color: white;
+    padding: 3px;
+    border-radius: 5px 5px 5px 0;
+}
+
+.list-residences span:nth-child(2) {
+    font-size: 12px;
+    color: #000;
+}
+
+.list-residences span:nth-child(3) {
+    font-size: 13px;
+}
+.list-residences p:nth-child(2) {
+    margin: 4px 0;
+}
+
+.news-letter {
+    background-color: #062755;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.news-letter h2 {
+    font-weight: 300;
+}
+
+.news-letter p {
+    color: #bdbdbd;
+}
+
+.news-letter > form >input[type="email"] {
+    width: 355px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: none;
+}
+
+.news-letter > form > input[type="submit"] {
+    background-color: #0071c2;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: .8rem 1.3rem;
 }
