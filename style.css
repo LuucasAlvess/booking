@@ -426,5 +426,83 @@ header {
     color: white;
     border-radius: 5px;
     border: none;
-    padding: .8rem 1.3rem;
+    padding: .7rem 1.3rem;
+    margin-left: 5px;
+}
+
+.news-letter  > form {
+    display: flex;
+    align-items: center;
+}
+
+#sales {
+    background-color: #003580;
+    text-align: center;
+}
+
+#sales > div {
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+}
+
+#sales > button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 12px;
+    border-radius: 3px;
+    margin: 1rem 0;
+}
+
+#sales > button > a {
+    color: white;
+    text-decoration: none;
+}
+
+#sales-options ul {
+    display: flex;
+    justify-content: center;
+}
+
+#sales-options > ul > li > a {
+    color: white;
+   font-size: 13px;
+   font-weight: bold;
+   margin-right: 10px;
+   text-decoration: none;
+}
+
+footer {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-options {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer-options ul {
+    margin-right: 2rem;
+}
+
+.footer-options a {
+    margin-right: 2rem 0;
+    color: #0071c2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer > div > a {
+    color: #6b6b6b;
+    padding-top: 2rem;
+}
+
+footer div:nth-child(2) {
+    margin-top: 2rem;
 }
