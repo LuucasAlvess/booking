@@ -91,7 +91,7 @@ header {
     border: 1px solid white;
 }
 
-#actions button:nth-child(1) > A {
+#actions button:nth-child(1) > a {
     color: white;
 }
 
@@ -143,6 +143,14 @@ header {
     font-weight: bold;
     margin-top: 30px;
     font-size: 16px;
+}
+
+@media (max-width: 600px) { /* executa quando largura máxima da tela for ate 600px  */
+    #form-filter-content {
+        flex-direction: column;
+        min-height: 300px;
+        
+    }
 }
 
 #form-filter-content {
@@ -440,7 +448,7 @@ header {
     text-align: center;
 }
 
-#sales > div {
+#sales div {
     padding: 1rem 0;
     border-bottom: 1px solid white;
 }
@@ -494,8 +502,8 @@ footer {
 .footer-options a {
     margin-right: 2rem 0;
     color: #0071c2;
-    font-weight: 600;
     text-decoration: none;
+    font-weight: 600;
 }
 
 footer > div > a {
@@ -506,3 +514,4 @@ footer > div > a {
 footer div:nth-child(2) {
     margin-top: 2rem;
 }
+
